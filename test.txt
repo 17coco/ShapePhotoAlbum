@@ -1,0 +1,21 @@
+# Make a rectangle and oval. Color red and green
+    shape   myrect   rectangle  200  200 50  100  255  0  0
+    shape   myoval   oval       500  100 60  30   0 255 1
+
+
+    move myrect     300     200
+    resize myrect   25      100
+    move myrect     100     300
+
+# Take another snapshot. Again, optional description included
+
+
+# Change rectangle color to blue. Move the oval
+    color myrect    0  0  255
+    move myoval     500   400
+
+
+# Remove the rectangle, then take one more snapshot
+    remove myrect
+
+#test for when there's no snapshots
